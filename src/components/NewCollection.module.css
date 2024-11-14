@@ -1,0 +1,72 @@
+.collectionSection {
+  padding: 40px 20px;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #222;
+  font-family: 'Arial, sans-serif';
+  font-weight: bold;
+}
+
+.collectionFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px; 
+}
+
+.collectionItem {
+  text-align: center;
+  position: relative;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.collectionItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.collectionImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: transform 0.3s ease;
+}
+
+.collectionImage:hover {
+  transform: scale(1.05);
+}
+
+.moreButton {
+  background-color: #F7F6F0;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin-top: 10px; 
+  transition: background-color 0.3s, color 0.3s;
+  width: 100%; 
+}
+
+.moreButton:hover {
+  background-color: #493628;
+  color: white;
+}
+
+.moreButton:focus {
+  outline: none;
+}

@@ -1,0 +1,18 @@
+.footer {
+  background-color: #000; 
+  color: #fff; 
+  padding: 20px;
+  text-align: center; 
+  height: 4vh;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.footerText {
+  font-size: 14px; 
+  font-family: 'Arial', sans-serif;
+}
